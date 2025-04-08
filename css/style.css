@@ -117,30 +117,17 @@ body {
     }
 }
 
-h1, h2, h3 {
-    font-family: "Sanchez", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-}
-h1 {
-    font-size: 7rem;
-}
-h1 {
-    font-size: 3.6rem;
-}
-h1 {
-    font-size: 2.4rem;
-}
+
+
 
     #highlight {
-        background: white;
+        background: black;
         margin: 0;
     }
     * {
-        color: black
+        color: black;
     }
-    h2 {color: yellow}
+    h2 {color: black}
 
     h2 {
         font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +138,7 @@ h1 {
     }
 
     h2 {
-        background: black
+        background: white
     }
 
     h1 {
@@ -192,7 +179,7 @@ footer a:hover {
         position: absolute;
     }
 }
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     .resume header::before {
         height: 200px;
     }
@@ -201,7 +188,7 @@ footer a:hover {
     }
     h2{
         font-size: 2.6rem;
-    }
+    } */
 }
 .project-item {
     transform: translateX(-250px);
